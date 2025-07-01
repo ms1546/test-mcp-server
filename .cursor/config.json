@@ -1,0 +1,11 @@
+{
+    "mcp": {
+      "enabled": true,
+      "endpoint": "http://localhost:8080",
+      "defaultPrompt": "このJS/TSコードは規約に従っていますか？問題があれば理由と修正案を示してください。",
+      "context": [
+        "src/**/*.js",
+        "src/**/*.ts"
+      ]
+    }
+  }
