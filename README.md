@@ -14,6 +14,25 @@ JavaScript / TypeScript のコードに対して、**規約に沿ったレビュ
 
 ---
 
+## 🛠️ 今後の拡張機能・設計方針
+
+- **レビューコメントのカスタマイズ**
+  ユーザーごとにレビュー基準やコメントテンプレートを設定可能にする
+- **複数コーディング規約への対応**
+  ESLint, Airbnb, Google など、主要なコーディング規約を選択・切替可能
+- **詳細なレポート出力**
+  レビュー結果を Markdown, JSON, HTML などでエクスポート
+- **APIエンドポイントの拡張**
+  GET /health, GET /config など管理用APIの追加
+- **認証・認可機能**
+  APIキーやOAuthによるアクセス制御
+- **フロントエンドUIとの連携**
+  WebダッシュボードやSlack通知など外部サービス連携
+- **レビュー履歴の保存・検索**
+  過去のレビュー結果をDBに保存し、検索・再利用可能に
+
+---
+
 ## 📦 セットアップ手順
 
 ### 1. クローン & インストール
@@ -22,3 +41,5 @@ JavaScript / TypeScript のコードに対して、**規約に沿ったレビュ
 git clone https://github.com/your-org/custom-mcp-server.git
 cd custom-mcp-server
 npm install
+
+```
